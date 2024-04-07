@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+background-color: white;  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: rgba(204, 181, 35, 0.026);
+  background-image: url(pexels-andreea-ch-1166643.jpg);
+}
+.crumbs ol{
+  color: rgb(229, 238, 46);
+  list-style-type: none;
+  padding: 15px;
+  background-color: #697184;
+  margin-bottom: 10px;
+  /* border: 1px rgb(223, 76, 76); */
+  /* border-style: solid; */
+
+}
+.crumbs a{
+  color: rgb(245, 245, 245);
+}
+.crumbs a:hover{
+  color: rgb(229, 25, 25);
+}
+.crumb{
+     display: inline-block;
+     font-family: sans-serif;
+font-style: normal;     padding: 10px;
+     margin-right: 40px;
+     font-display:initial;
+     font-style: initial;
+}
+nav {
+  /* border-bottom: 1px solid black; */
+   box-shadow: 5px 5px 5px 5px rgb(189, 189, 205); 
+  margin: 10px;
+  list-style-type: none;
+  
+}
+.searchbox{
+  border-radius: inherit;
+ margin-left: 600px;
+ border: 4px;
+ margin-right: 0px;
+  display: inline-block;
+  float: right;
+}
+.textbox{
+  padding: 10px;
+  
+}
+.searchbutton{
+  padding: 10px;
+}
+.sanjuimg{
+  float: left;
+  margin-left: 50px;
+  height: 600px;
+  width: 900px;
+  mix-blend-mode: multiply ;
+  /* box-shadow: 0px 0px 400px 0px rgb(208, 144, 166); */
+  /* outline: dashed red; */
+
+}
+.intro{
+     display: flex;
+     background-blend-mode: darken;
+
+
+}
+h1{
+
+  color: yellow;
+  display: flex;
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 1px;
+  text-shadow: 0px 0px 100px  #f429c1;
+  font-family:  serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f4faf4 0%,
+    #0909f4 29%,
+    #3d0b1b 67%,
+    #4e4c23 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+p{
+  background-color: aliceblue;
+  font-size: 20px;
+ display: flex;
+ float:right;
+ margin: 20px;
+ margin-left: 0;
+ margin-right: 90px;
+ padding: 50px;
+ border: 5px;
+ /* border-style: solid; */
+ font-family: "Playfair Display", serif;
+ box-shadow: 5px 5px 9px 8px rgb(224, 150, 59); 
+ 
+}
+.Sign-up-button{
+   margin-left: 0px;
+   margin-right: 40px;
+   padding: 10px;
+   background-color: #fff800;
+   padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 5px 5px 90px 8px rgb(224, 150, 59); 
+
+}
+.Sign-in-button{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff800;
+  border-radius: 0cm;
+  
+  box-shadow: 5px 5px 90px 8px rgb(87, 85, 88); 
+}
